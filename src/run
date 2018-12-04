@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -f "Model.java" ]; then
+    echo Compile and Execute
+    javac Model.java && ./read_key.sh | java Model
+else
+    echo Execute
+    ./read_key.sh | java Model
+fi
+

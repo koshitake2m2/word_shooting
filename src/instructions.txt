@@ -1,0 +1,15 @@
+Instruction
+- This game is shooting and typing game.
+- There are three lane, a word come from right side to left side 
+  in those lane.
+- You can change the lane anytime.
+- Next character you type is indicated by '_'.
+- If you finished to type a word, you shoot a bullet.
+- If a bullet hit a word, you get point!
+- If word reach at the line('#'), your HP decrements.
+- If your HP is 0 or Time is 00:00, game over.
+- If you want to change the lane:
+    type '(' : up
+    type ')' : down
+
+Let's enjoy!!
